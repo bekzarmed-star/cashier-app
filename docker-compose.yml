@@ -1,0 +1,72 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: cashier-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${PGUSER:-postgres}
+      POSTGRES_PASSWORD: ${PGPASSWORD:-Bekzarmed}
+      POSTGRES_DB: ${PGDATABASE:-cashier}
+    volumes:
+      - cashier_pgdata:/var/lib/postgresql/data
+    ports:
+      - "${DB_PUBLISH_PORT:-5433}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PGUSER:-postgres} -d ${PGDATABASE:-cashier}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: cashier-api
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      API_PORT: 4002
+      PGHOST: db
+      PGPORT: 5432
+      PGUSER: ${PGUSER:-postgres}
+      PGPASSWORD: ${PGPASSWORD:-Bekzarmed}
+      PGDATABASE: ${PGDATABASE:-cashier}
+      EXTERNAL_API_URL: ${EXTERNAL_API_URL:-http://192.168.1.250:8000}
+      EXTERNAL_API_KEY: ${EXTERNAL_API_KEY}
+      ERP_BASE_URL: ${ERP_BASE_URL:-http://159.223.235.20:4001}
+      ERP_API_KEY: ${ERP_API_KEY}
+      ERP_BEARER_TOKEN: ${ERP_BEARER_TOKEN:-}
+      ERP_LOGIN_PHONE: ${ERP_LOGIN_PHONE:-}
+      ERP_LOGIN_PASSWORD: ${ERP_LOGIN_PASSWORD:-}
+      ERP_REQUIRE_PUSH: ${ERP_REQUIRE_PUSH:-true}
+      ERP_SYNC_INVOICES: ${ERP_SYNC_INVOICES:-true}
+      ERP_SYNC_TRIPS: ${ERP_SYNC_TRIPS:-false}
+      ERP_INVOICE_LIMIT: ${ERP_INVOICE_LIMIT:-2000}
+      ERP_INVOICE_PAGE_SIZE: ${ERP_INVOICE_PAGE_SIZE:-100}
+      ERP_SYNC_INTERVAL_MS: ${ERP_SYNC_INTERVAL_MS:-300000}
+    volumes:
+      - ./server/keys:/app/server/keys
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "${API_PUBLISH_PORT:-4002}:4002"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+      args:
+        VITE_BMS_API_URL: ""
+        VITE_USE_MOCK: "false"
+    container_name: cashier-web
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "${WEB_PUBLISH_PORT:-8080}:80"
+
+volumes:
+  cashier_pgdata:

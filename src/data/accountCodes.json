@@ -1,0 +1,677 @@
+[
+  {
+    "code": "A",
+    "english": "Marketing expenses",
+    "russian": "расходы на маркетинг",
+    "uzbek": "Marketing xarajatlari",
+    "note": "Banner, broshyura, logotip tushirilgan bloknot va boshqa kanstovarlar, marketing tadbirlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "A1",
+    "english": "CashBack Doctors",
+    "russian": "Cashback Врачи",
+    "uzbek": "Keshbek Shifokorlar",
+    "note": "Yuboruvchi shifokorlarga keshbeklar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "A2",
+    "english": "CashBack Taxi",
+    "russian": "CashBack такси",
+    "uzbek": "Keshbek Taksi",
+    "note": "Taksistlar uchun keshbeklar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "A3",
+    "english": "Advertisement",
+    "russian": "Рекламное объявление",
+    "uzbek": "Reklama",
+    "note": "Reklama xarajatlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "A4",
+    "english": "Employee Travelling Expenses",
+    "russian": "Командировочные расходы сотрудников (еда, проезд,гостинница)",
+    "uzbek": "Komandirovka xarajatlari",
+    "note": "Xodimlarning xizmat safarlari buyicha xarajatlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "A5",
+    "english": "Advances Received Doctor Service Fee",
+    "russian": "Авансы Врачам",
+    "uzbek": "Keshbek uchun avanslar",
+    "note": "Yuboruvchi shifokorlarga avans keshbeklar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "A6",
+    "english": "Miscellaneous",
+    "russian": "РАЗНОЕ",
+    "uzbek": "Boshqalar",
+    "note": "Boshqalar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "A7",
+    "english": "ADVANCE TO REPORTING EMPLOYEES",
+    "russian": "АВАНС  ПОДОТЧЁТНЫМ СОТРУДНИКАМ (Анвар на карту, мелоч для сдачи)",
+    "uzbek": "Ish faoliyati uchun avanslar",
+    "note": "Misol uchun, qaytim uchun kassirlarga berilgan mablag`",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "B",
+    "english": "Delivery",
+    "russian": "Посылка (почта)",
+    "uzbek": "Posilka (Pochta)",
+    "note": "Yetkazib berish xarajatkari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "B1",
+    "english": "Taxi/ Train/ Flight",
+    "russian": "Такси / Поезд / Flight",
+    "uzbek": "Taxi/Poyezd/Samolyot",
+    "note": "Ishchilar va mahsulotlar uchun transport xizmatlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "B2",
+    "english": "Hotel",
+    "russian": "Отель",
+    "uzbek": "Mehmonxona",
+    "note": "Ishlatilmasin, A4  ishlatiladi",
+    "archived": true,
+    "group": "Расход"
+  },
+  {
+    "code": "B3",
+    "english": "Service transport  costs",
+    "russian": "Расходы  обслуживающего транспорта",
+    "uzbek": "Xizmat mashinalari xarajatlari",
+    "note": "Xizmat mashinalarini ta`mirlash va yoqilg`I xarajatlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C",
+    "english": "Office",
+    "russian": "Офис",
+    "uzbek": "Ofis xarajatlari",
+    "note": "Boshqa ofis xarajatlari, dividend uchun C10 kodi ishlatiladi",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C1",
+    "english": "Stationary",
+    "russian": "стационарный",
+    "uzbek": "Kanstovar",
+    "note": "Kanstovar xaridi uchun ishlatiladi",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C2",
+    "english": "OFFICE SNACK",
+    "russian": "ПЕРЕКУС ДЛЯ ОФИСА",
+    "uzbek": "Ofis uchun perekus",
+    "note": "Ofis uchun quruq meva va shirinliklar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C3",
+    "english": "Repair & Maintenance",
+    "russian": "Ремонт и техническое обслуживание",
+    "uzbek": "Texnika va jihozlarni ta`mirlash",
+    "note": "Texnika va jihozlarni ta`mirlash, tibbiyot uskunalari bo`lsa C6, oshxona uchun C7 ishlatiladi",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C4",
+    "english": "Роддом",
+    "russian": "",
+    "uzbek": "Tug`ruqxona",
+    "note": "Tug`ruqxona bevosita xarajatlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C5",
+    "english": "Кухня",
+    "russian": "",
+    "uzbek": "Oshxona",
+    "note": "Oshxona uchun oziq-ovqat mahsulotlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C6",
+    "english": "Service and maintainance of medical Equipements",
+    "russian": "Сервисное обслуживание медицинского оборудования",
+    "uzbek": "Tibbiy uskunalarni ta`mirlash",
+    "note": "Tibbiy texnika va jihozlarni ta`mirlash, tibbiyot uskunalari bo`lmasa bo`lsa C3 ishlatiladi",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C7",
+    "english": "REPAIR OF KITCHEN EQUIPMENT",
+    "russian": "РЕМОНТ ТЕХНИЧЕСКОГО ИНВЕНТАРЯ КУХНИ",
+    "uzbek": "Oshxona inventarlarini ta`mirlash",
+    "note": "Oshxona texnika va jihozlarni ta`mirlash, tibbiyot uskunalari bo`lsa C6 ishlatiladi",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C8",
+    "english": "DISCOUNT FOR PATIENTS",
+    "russian": "СКИДКА ДЛЯ ПАЦИЕНТОВ",
+    "uzbek": "Bemorlar uchun chegirmalar",
+    "note": "Bemorlarning puli kamligi va boshqa sabablarga ko`ra chegirmalar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C9",
+    "english": "BAD BEDTS OF PATIENTS",
+    "russian": "БЕЗНАДЕЖНЫЕ ДОЛГИ ПАЦИЕНТОВ (тулов килмаган пац.)",
+    "uzbek": "Umidsiz qarzdorliklar",
+    "note": "Qalbaki pullarni hisobdan chiqarish uchun ishlatiladi",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C10",
+    "english": "Dividend",
+    "russian": "Дивиденд",
+    "uzbek": "Dividend",
+    "note": "Ta`sischilarga beriladigan divedendlar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "C11",
+    "english": "Software Support",
+    "russian": "Обслуживание программы",
+    "uzbek": "Dasturga xizmat ko`rsatish",
+    "note": "Dasturga xizmat ko`rsatish uchun to`lovlar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D",
+    "english": "OASIS FOOD COSTS",
+    "russian": "РАСХОДЫ \"ОАЗИС\" ЗА ЕДУ",
+    "uzbek": "Oazis Restoraniga ovqatlanish xizmatlari uchun",
+    "note": "Oazis Restoraniga ovqatlanish xizmatlari uchun",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D1",
+    "english": "Food",
+    "russian": "Еда",
+    "uzbek": "Ishchilarning tushlik xarajatlari",
+    "note": "Misol uchun, reklama bo`limi tumanlarga chiqqan vaqtda",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D2",
+    "english": "Apartment",
+    "russian": "Квартира",
+    "uzbek": "Kvartira",
+    "note": "Ishchilar uchun ijaraga olingan ofis yoki kvartira to`lovlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D3",
+    "english": "Staff Bonus",
+    "russian": "Персонал Bonus",
+    "uzbek": "Ischilar uchun bonuslar",
+    "note": "Ischilar uchun bonuslar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D4",
+    "english": "Expenses of foreign doctors",
+    "russian": "РАСХОДЫ ИНОСТРАННЫХ ВРАЧЕЙ (проезд, квартира,разрешение регистрация, еда)",
+    "uzbek": "Chet ellik mutaxassislar uchun xarajatlar",
+    "note": "Chet ellik mutaxassislar uchun oylikdan tashqari xarajatlar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D5",
+    "english": "Celebration & Entertainment",
+    "russian": "Праздник и развлечения",
+    "uzbek": "Bayramlar va tadbirlar",
+    "note": "Xodimlar tug`ilgan kunlari, korporativ tadbirlar uchun xarajatlar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D6",
+    "english": "Doctors Service Fees",
+    "russian": "Врачи Тарифы на обслуживание",
+    "uzbek": "Tashqi shifokorlar xizmati",
+    "note": "Ishlatilmasin, D18 ishlatiladi",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D7",
+    "english": "Doctors Salary",
+    "russian": "Заработная плата врачей",
+    "uzbek": "Shifokorlar ish haqi",
+    "note": "Shifokorlar uchun ish haqi (fiks)",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D8",
+    "english": "Doctors Salary advances",
+    "russian": "Авансы по заработной плате (врачи)",
+    "uzbek": "Shifokorlar uchun avanslar",
+    "note": "Shifokorlar uchun avanslar (fiks)",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D9",
+    "english": "Doctors Service Fees advances",
+    "russian": "Авансы по выплатам (врачи)",
+    "uzbek": "Shifokorlar xizmat haqi avansi",
+    "note": "Shifokorlar uchun xizmat haqi avansi(bajarilgan ishiga ko`ra)",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D10",
+    "english": "",
+    "russian": "Заработная плата персонала (без врачей)",
+    "uzbek": "Xodimlar ish haqi",
+    "note": "Xodimlar uchun ish haqi (fiks)",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D11",
+    "english": "Staff Salary advances",
+    "russian": "Авансы по заработной плате персонала (без врачей)",
+    "uzbek": "Xodimlar uchun avanslar",
+    "note": "Xodimlar uchun avanslar (fiks)",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D12",
+    "english": "Doctors Service Fees Monthly",
+    "russian": "Выплаты врачам ежемесячное",
+    "uzbek": "Shifokorlar xizmat haqi",
+    "note": "Shifokorlar uchun xizmat haqi (bajarilgan ishiga ko`ra)",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D13",
+    "english": "Allowances for staff ( without doctors) Надбавки персоналу (без врачей)",
+    "russian": "",
+    "uzbek": "Xodimlar xizmat haqi",
+    "note": "Xodimlar uchun xizmat haqi (bajarilgan ishiga ko`ra)",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D14",
+    "english": "Pharmacy salary",
+    "russian": "Аптека зарплата персонала",
+    "uzbek": "Apteka ish haqi",
+    "note": "Apteka uchun ish haqi (fiks)",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D15",
+    "english": "Allowances for staff (doctors) Надбавки  (врачам)",
+    "russian": "",
+    "uzbek": "Shifokorlar xizmat haqi",
+    "note": "Ishlatilmasin, D12 ishlatiladi",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D16",
+    "english": "VACATION PAY COMPENSATION КОМПЕНСАЦИЯ ОТПУСКНЫХ",
+    "russian": "",
+    "uzbek": "Mehnat ta`tili kompensatsiyasi",
+    "note": "Mehnat ta`tili kompensatsiyasi",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D17",
+    "english": "KITCHEN STAFF SALARY",
+    "russian": "КУХНЯ зарплата персонала",
+    "uzbek": "Oshxona ish haqi",
+    "note": "Oshxona uchun ish haqi (fiks)",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D18",
+    "english": "TARIFFS FOR SERVICES OF FREEIANCE",
+    "russian": "ТАРИФЫ НА ОБСЛУЖИВАНИЕ ВНЕШТАТНЫХ ВРАЧЕЙ",
+    "uzbek": "Tashqi shifokorlar xizmati",
+    "note": "Tashqaridan taklif qilingan shifokorlar uchun xizmat haqlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "D19",
+    "english": "Staff Salary advances(Kitchen)",
+    "russian": "Авансы по заработной плате персонала (КУХНЯ)",
+    "uzbek": "Oshxona ish haqi avansi",
+    "note": "Oshxona uchun ish haqi avansi(fiks)",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "E",
+    "english": "Consumables (cental sterilization department)",
+    "russian": "расходные материалы ОЦС",
+    "uzbek": "Sterilizatsiya bo`limi xarajatlari",
+    "note": "Sterilizatsiya bo`limi xarajatlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "E1",
+    "english": "Diagnostic Consumables",
+    "russian": "Диагностическое расходные материалы",
+    "uzbek": "Diagnostika iste`mol mahsulotlari",
+    "note": "Ishlatilmasin, E2 ishlatiladi",
+    "archived": true,
+    "group": "Расход"
+  },
+  {
+    "code": "E2",
+    "english": "Medical Consumables",
+    "russian": "Медицинские расходные материалы",
+    "uzbek": "Tibbiyot iste`mol mahsulotlari",
+    "note": "Tibbiyot iste`mol mahsulotlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "E3",
+    "english": "Non Medical Conumables",
+    "russian": "Немедицинский Conumables",
+    "uzbek": "Tibbiyotdan tashqari iste`mol mahsulotlari",
+    "note": "Tibbiyotdan tashqari iste`mol mahsulotlari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F",
+    "english": "Investment/Debt",
+    "russian": "Инвестиции / долги",
+    "uzbek": "Investitsiyalar",
+    "note": "Investitsiyalar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F1",
+    "english": "Pharmacy",
+    "russian": "Аптека",
+    "uzbek": "Apteka",
+    "note": "Aptekaga transferlar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F2",
+    "english": "RENTAL SIDIMED",
+    "russian": "АРЕНДА  \"СИДИМЕД\"",
+    "uzbek": "Sidimed ijara",
+    "note": "Sidimed ijarasi",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F3",
+    "english": "CASH DESK OF THE BUKHARA BRANCH",
+    "russian": "КАССА БУХАРСКОГО ФИЛИАЛЛА",
+    "uzbek": "Buxora kassa",
+    "note": "Buxoroga transferlar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F4",
+    "english": "CASH DESK OF THE KARSHI BRANCH",
+    "russian": "КАССА КАРШИНСКОГО ФИЛИАЛЛА",
+    "uzbek": "Qarshi kassa",
+    "note": "Qarshiga transferlar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F5",
+    "english": "CASH DESK OF THE SHAHRISABZ BRANCH",
+    "russian": "КАССА ШАХРИСАБЗКОГО ФИЛИАЛЛА",
+    "uzbek": "Shahrisabz kassa",
+    "note": "Shahrisabzga transferlar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F6",
+    "english": "FINANCIAL ASSISTANCE TO THE BUKHARA BRANCH",
+    "russian": "ФИН.ПОМОЩЬ ФИЛИАЛУ БУХАРА",
+    "uzbek": "Buxoraga moddiy yordam",
+    "note": "Ishlatilmasin, F3 yetarli",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F7",
+    "english": "FINANCIAL ASSISTANCE TO THE KARSHI BRANCH",
+    "russian": "ФИН.ПОМОЩЬ ФИЛИАЛУ КАРШИ",
+    "uzbek": "Qarshiga moddiy yordam",
+    "note": "Ishlatilmasin, F4 yetarli",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F8",
+    "english": "FINANCIAL ASSISTANCE TO THE SHAHRISABZ BRANCH",
+    "russian": "ФИН.ПОМОЩЬ ФИЛИАЛУ ШАХРИСАБЗ",
+    "uzbek": "Shahrisabzga moddiy yordam",
+    "note": "Ishlatilmasin, F5 yetarli",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F9",
+    "english": "CASH DESK OF THE SAMARKAND",
+    "russian": "КАССА САМАРКАНД",
+    "uzbek": "Samarqand kassasi",
+    "note": "Samarqandga transferlar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F10",
+    "english": "SHARE CAPITAL CORRECTION",
+    "russian": "КОРРЕКЦИЯ уставного капитала",
+    "uzbek": "Ustav fondi korreksiyasi",
+    "note": "",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F11",
+    "english": "ACHIBADEM PROJECT",
+    "russian": "Ачибадем",
+    "uzbek": "Achibadem",
+    "note": "",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "F12",
+    "english": "KARSHI BRANCH EXPANSION",
+    "russian": "Расширение филиала Карши",
+    "uzbek": "Qarshi filialini kengaytrirish",
+    "note": "",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "G",
+    "english": "Assets",
+    "russian": "Ресурсы",
+    "uzbek": "Vositalar",
+    "note": "Asosiy vositalar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "G1",
+    "english": "Medical Assets",
+    "russian": "Медицинские активы",
+    "uzbek": "Tibbiyot uskunalari",
+    "note": "Tibbiyot uskunalari",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "G2",
+    "english": "Non Medical assets",
+    "russian": "Немедицинских активы",
+    "uzbek": "Tibbiyotdan boshqa uskunalar",
+    "note": "Tibbiyotdan boshqa uskunalar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "H",
+    "english": "Outsourced Services",
+    "russian": "услуги по аутсорсингу",
+    "uzbek": "Tashqi xizmatlar",
+    "note": "Tashqi xizmatlar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "H1",
+    "english": "Outsourced Laboratory",
+    "russian": "Outsourced Лаборатория",
+    "uzbek": "Tashqi laboratoriya",
+    "note": "Tashqi laboratoriya",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "H2",
+    "english": "Outsourced Radiogy",
+    "russian": "Outsourced Radiogy",
+    "uzbek": "Tashqi radiologiya",
+    "note": "Tashqi radiologiya",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "H3",
+    "english": "Other outsourced Services",
+    "russian": "Другие услуги по аутсорсингу",
+    "uzbek": "Boshqa tashqi xizmatlar",
+    "note": "Boshqa tashqi xizmatlar",
+    "archived": false,
+    "group": "Расход"
+  },
+  {
+    "code": "P1",
+    "english": "Transfers from Bukhara",
+    "russian": "Приход Бухара",
+    "uzbek": "Buxorodan kirim",
+    "note": "Buxorodan kirim",
+    "archived": false,
+    "group": "Прочий приход"
+  },
+  {
+    "code": "P2",
+    "english": "Transfers from Karshi",
+    "russian": "Приход Карши",
+    "uzbek": "Qarshidan kirim",
+    "note": "Qarshidan kirim",
+    "archived": false,
+    "group": "Прочий приход"
+  },
+  {
+    "code": "P3",
+    "english": "Transfers from Shakhrisabz",
+    "russian": "Приход Шахрисабз",
+    "uzbek": "Shaxrisabzdan kirim",
+    "note": "Shaxrisabzdan kirim",
+    "archived": false,
+    "group": "Прочий приход"
+  },
+  {
+    "code": "P4",
+    "english": "Transfers from Pharmacy",
+    "russian": "Приход Аптека",
+    "uzbek": "Aptekadan kirim",
+    "note": "Aptekadan kirim",
+    "archived": false,
+    "group": "Прочий приход"
+  },
+  {
+    "code": "P5",
+    "english": "Surplus cash",
+    "russian": "Излишка",
+    "uzbek": "Ortiqcha naqd pul",
+    "note": "Ortiqcha naqd pul",
+    "archived": false,
+    "group": "Прочий приход"
+  },
+  {
+    "code": "P6",
+    "english": "Cash error",
+    "russian": "Недостача",
+    "uzbek": "Kam naqd pul",
+    "note": "Ortiqcha naqd pul",
+    "archived": false,
+    "group": "Прочий приход"
+  },
+  {
+    "code": "P7",
+    "english": "Other cash receipts",
+    "russian": "Прочие денежные приходы",
+    "uzbek": "Boshqa pul kirimlari",
+    "note": "Ortiqcha naqd pul",
+    "archived": false,
+    "group": "Прочий приход"
+  }
+]

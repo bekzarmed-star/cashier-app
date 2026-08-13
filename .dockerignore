@@ -1,0 +1,12 @@
+node_modules
+dist
+.git
+.gitignore
+*.xlsx
+~$*
+.vscode
+.cursor
+coverage
+npm-debug.log*
+.env
+.env.local
